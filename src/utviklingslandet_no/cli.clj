@@ -2,7 +2,7 @@
   (:require [utviklingslandet-no.web :as web]
             [stasis.core :as stasis]
             [optimus.optimizations :as optimizations]
-            [optimus.exportl]))
+            [optimus.export]))
 
 (def optimize optimizations/all)
 
