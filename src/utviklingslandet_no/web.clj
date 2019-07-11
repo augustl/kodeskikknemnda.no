@@ -5,10 +5,12 @@
             [optimus.strategies :as strategies]
             [optimus.optimizations :as optimizations]
             [ring.middleware.content-type :refer [wrap-content-type]]
-            [prone.middleware :as prone]))
+            [prone.middleware :as prone]
+            [utviklingslandet-no.rss :as rss]))
 
 (defn get-pages []
-  {"/" "Hello, world!"})
+  {"/" "Hello, world!"
+   "/rss.xml" (rss/generate-rss (-> "episodes.edn" clojure.java.io/resource slurp clojure.edn/read-string))})
 
 (defn get-assets []
   (assets/load-assets "public" [#".*"]))
