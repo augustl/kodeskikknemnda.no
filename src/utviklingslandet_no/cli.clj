@@ -1,11 +1,12 @@
 (ns utviklingslandet-no.cli
   (:require [utviklingslandet-no.web :as web]
             [stasis.core :as stasis]
-            [optimus.optimizations :as optimizations]))
+            [optimus.optimizations :as optimizations]
+            [optimus.exportl]))
 
 (def optimize optimizations/all)
 
-(defn export [dir]
+(defn build-site [dir]
   (let [assets (optimize (web/get-assets) {})]
     (stasis/empty-directory! dir)
     (optimus.export/save-assets assets dir)

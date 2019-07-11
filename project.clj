@@ -14,7 +14,7 @@
              "-Djava.awt.headless=true"]
   :ring {:handler utviklingslandet-no.web/app
          :port 3344}
-  :aliases {"build-site" ["run" "-m" "utviklingslandet-no.web/export"]}
+  :aliases {"build-site" ["run" "-m" "utviklingslandet-no.cli/build-site" "dist"]}
   :profiles {:dev {:dependencies [[clj-tagsoup/clj-tagsoup "0.3.0" :exclusions [org.clojure/clojure]]
                                   [hiccup-find  "1.0.0"]]
                    :plugins [[lein-ring "0.12.5"]]
