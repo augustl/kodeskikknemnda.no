@@ -13,3 +13,4 @@ checkouts
 .lein-repl-history
 .nrepl-port
 target
+.firebase
