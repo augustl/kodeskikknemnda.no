@@ -4,7 +4,7 @@
    :ep/description "Dette er første episode hvor vi snakker mest om hva vi vil med podcasten, helt til vi mister tråden og prater oss bort -- og drar oss inn igjen så godt vi kan."
    :ep/link "https://utviklingslandet.no/ep/2019-04-10"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-10-3.mp3"
-   :ep/file-url "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-10-3.mp3"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-001-blablabla.mp3"
    :ep/pub-date [2019 4 10]
    :ep/duration "00:46:24"
    :ep/explicit true
@@ -15,7 +15,7 @@
    :ep/subtitle "Hvorfor d###er vi i open source?"
    :ep/link "https://utviklingslandet.no/ep/2019-04-16"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-16.mp3"
-   :ep/file-url "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-16.mp3"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-002-driter-i-open-source.mp3"
    :ep/pub-date [2019 4 16]
    :ep/duration "00:26:00"
    :ep/explicit true
@@ -26,7 +26,7 @@
    :ep/subtitle "En utvikler siden slutten av 70-tallet forteller detaljene rundt hvordan det foregikk. Hvordan utvikler en uten engang ha egen PC? Ingen debugging, ingen skjer - sier du? Jepp."
    :ep/link "https://utviklingslandet.no/ep/2019-04-24"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-24.mp3"
-   :ep/file-url "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-24.mp3"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-003-pensjonert-utvikler.mp3"
    :ep/pub-date [2019 4 24]
    :ep/duration "01:47:13"
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas" "Georg Fekete" "Georgy Fekete"]}
@@ -36,7 +36,7 @@
    :ep/subtitle "Hvordan analysere om kode er buggy og dårlig, eller robust og stabil? Lint? Utviklererfaring? Testdekning? August har funnet en oppdagelse Microsoft har gjort som overraska meg voldsomt."
    :ep/link "https://utviklingslandet.no/ep/2019-05-08"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-05-08.mp3"
-   :ep/file-url "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-05-08.mp3"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-004-visste-du-om-vista.mp3"
    :ep/pub-date [2019 5 9]
    :ep/duration "00:42:36"
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas" "Windows Vista"]}
@@ -46,7 +46,7 @@
    :ep/subtitle "August har refleksjoner rundt boka til Linus Tordvalds \"Just For Fun\" fra 2002. Vi snakker oss igjennom omstendighetene som ledet til Linux, og vi håper du synes det er like spennende som vi gjorde."
    :ep/link "https://utviklingslandet.no/ep/2019-06-26"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-06-26.mp3"
-   :ep/file-url "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-06-26.mp3"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-005-linus.mp3"
    :ep/pub-date [2019 6 26]
    :ep/duration "00:35:56"
    :ep/explicit true
