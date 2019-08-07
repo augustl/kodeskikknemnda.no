@@ -10,13 +10,16 @@
             [utviklingslandet-no.rss :as rss]))
 
 (defn get-home-page []
-  (hiccup.page/html5
+  (hiccup.page/html5 {:lang "no"}
     [:head
      [:meta {:charset "utf-8"}]
      [:title "Utviklingslandet"]
      [:link {:type "application/rss+xml" :rel "alternate" :title "utviklingslandet.no" :href "https://utviklingslandet.no/rss.xml"}]]
     [:body
-     "Bør vi lage en web egentlig? Vi er ikke sikre, derfor har du fått denne stygge redirecten til backblaze sin b2 bucket."]))
+     [:p "Dette er den supre websiden vår."]
+     [:p "Har du lyst til å høre på podcast?"]
+     [:p "Søk på " [:strong "Utviklingslandet"] " i en podcast-app nær deg."]
+     [:p "Og så har vi " [:a {:href "https://www.youtube.com/channel/UChpu1nP54SaYlFznoecHqKg"} "en YouTube-kanal"] ", da. We aim to please."]]))
 
 (defn get-pages []
   {"/" (get-home-page)
