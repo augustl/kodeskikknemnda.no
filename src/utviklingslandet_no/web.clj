@@ -14,12 +14,14 @@
     [:head
      [:meta {:charset "utf-8"}]
      [:title "Utviklingslandet"]
-     [:link {:type "application/rss+xml" :rel "alternate" :title "utviklingslandet.no" :href "https://utviklingslandet.no/rss.xml"}]]
+     [:link {:type "application/rss+xml" :rel "alternate" :title "utviklingslandet.no" :href "https://utviklingslandet.no/rss.xml"}]
+     [:link {:rel "stylesheet" :href "/site.css"}]]
     [:body
      [:p "Dette er den supre websiden vår."]
      [:p "Har du lyst til å høre på podcast?"]
      [:p "Søk på " [:strong "Utviklingslandet"] " i en podcast-app nær deg."]
-     [:p "Og så har vi " [:a {:href "https://www.youtube.com/channel/UChpu1nP54SaYlFznoecHqKg"} "en YouTube-kanal"] ", da. We aim to please."]]))
+     [:p "Og så har vi " [:a {:href "https://www.youtube.com/channel/UChpu1nP54SaYlFznoecHqKg"} "en YouTube-kanal"] ", da. We aim to please."]
+     [:p "Dessuten kan du følge oss på " [:a {:href "https://twitter.com/utviklingsland"} "twitter.com/utviklingsland"] "."]]))
 
 (defn get-pages []
   {"/" (get-home-page)

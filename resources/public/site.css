@@ -1,0 +1,21 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+a {
+    color: blue;
+    font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+        color: #eee;
+    }
+
+    a {
+        color: #fff;
+
+    }
+}
