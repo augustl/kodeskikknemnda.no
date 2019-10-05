@@ -50,4 +50,14 @@
    :ep/pub-date [2019 6 26]
    :ep/duration "00:35:56"
    :ep/explicit true
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "Linux" "Linus Torvalds"]}]}
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "Linux" "Linus Torvalds"]}
+
+  {:ep/title "#6 Hvordan unngå å drepe folk"
+   :ep/subtitle "Er det noe vi kan lære av andre bransjer for å skrive tryggere software?"
+   :ep/description "Vi ser på ting som har gått galt som følge av software-feil, og smarte ting folk har gjort for å redde liv."
+   :ep/link "https://utviklingslandet.no/ep/6-hvordan-unngaa-a-drepe-folk"
+   :ep/guid "ep-006-hvordan-unngaa-aa-drepe-folk-7ea83d8f692c00535d579fff5eeea81e"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-006-hvordan-unngaa-aa-drepe-folk.mp3"
+   :ep/pub-date [2019 10 5]
+   :ep/duration "00:37:21"
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "ASTS" "FAA" "NASA"]}]}
