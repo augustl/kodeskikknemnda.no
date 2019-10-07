@@ -4,6 +4,16 @@
   (:import (java.time ZonedDateTime LocalDateTime ZoneId)
            (java.time.format DateTimeFormatter)))
 
+(defn parse-ep-pub-date [[y m d]]
+  (ZonedDateTime/of (LocalDateTime/of y m d 0 0) (ZoneId/of "Europe/Oslo")))
+
+(defn get-pub-date [rss-data]
+  (->> (:episodes rss-data)
+       (map #(parse-ep-pub-date (:ep/pub-date %)))
+       (sort)
+       (reverse)
+       (first)))
+
 (defn generate-rss [rss-data]
   (hiccup/html
     {:mode :xml}
@@ -27,8 +37,8 @@
       [:itunes:image {:href "https://f002.backblazeb2.com/file/utviklingslandet-public/logo.jpg"}]
       [:itunes:category {:text "Technology"}
        [:itunes:category {:text "Programming"}]]
-      [:pubDate "Wed, 09 May 2019 00:00:00 +0100"]
-      [:lastBuildDate "Wed, 26 May 2019 23:00:00 +0100"]
+      [:pubDate (.format DateTimeFormatter/RFC_1123_DATE_TIME (get-pub-date rss-data))]
+      [:lastBuildDate (.format DateTimeFormatter/RFC_1123_DATE_TIME (ZonedDateTime/now))]
       (map
         (fn [ep]
           [:item
@@ -38,8 +48,8 @@
            [:description (:ep/description ep)]
            [:enclosure {:url (:ep/file-url ep) :type "audio/mpeg"}]
            [:category "Software development"]
-           (let [[y m d] (:ep/pub-date ep)]
-             [:pubDate (.format DateTimeFormatter/RFC_1123_DATE_TIME (ZonedDateTime/of (LocalDateTime/of y m d 0 0) (ZoneId/of "Europe/Oslo")))])
+           (let [ep-pub-date (:ep/pub-date ep)]
+             [:pubDate (.format DateTimeFormatter/RFC_1123_DATE_TIME (parse-ep-pub-date ep-pub-date))])
            [:itunes:author "Utviklingslandet"]
            [:itunes:explicit (if (:ep/explicit ep) "Yes" "No")]
            (when-let [subtitle (:ep/subtitle ep)]
