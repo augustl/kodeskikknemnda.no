@@ -1,8 +1,10 @@
 (ns user
-  (:require [clojure.java.io :as io]
-            [clojure.pprint :refer [pprint pp print-table]]
-            [clojure.reflect]
-            [clojure.repl :refer :all]
-            [clojure.set :as set]
-            [clojure.string :as str]
-            [hiccup.core :refer [html]]))
+  (:require [utviklingslandet-no.web :refer [app]]
+            [ring.adapter.jetty]))
+
+(defn start-server []
+  (defonce server (ring.adapter.jetty/run-jetty #'app {:port 3000 :join? false}))
+  (.start server))
+
+(defn stop-server []
+  (.stop server))

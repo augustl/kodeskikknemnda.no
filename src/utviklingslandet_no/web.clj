@@ -7,6 +7,7 @@
             [ring.middleware.content-type :refer [wrap-content-type]]
             [hiccup.page]
             [prone.middleware :as prone]
+            [clojure.edn]
             [utviklingslandet-no.rss :as rss]))
 
 (defn get-home-page []
