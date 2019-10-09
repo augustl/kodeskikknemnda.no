@@ -7,14 +7,14 @@
 (defn parse-ep-pub-date [[y m d]]
   (ZonedDateTime/of (LocalDateTime/of y m d 0 0) (ZoneId/of "Europe/Oslo")))
 
-(defn get-pub-date [rss-data]
-  (->> (:episodes rss-data)
+(defn get-pub-date [episodes]
+  (->> episodes
        (map #(parse-ep-pub-date (:ep/pub-date %)))
        (sort)
        (reverse)
        (first)))
 
-(defn generate-rss [rss-data]
+(defn generate-rss [episodes]
   (hiccup/html
     {:mode :xml}
     (hiccup.page/xml-declaration "UTF-8")
@@ -37,7 +37,7 @@
       [:itunes:image {:href "https://f002.backblazeb2.com/file/utviklingslandet-public/logo.jpg"}]
       [:itunes:category {:text "Technology"}
        [:itunes:category {:text "Programming"}]]
-      [:pubDate (.format DateTimeFormatter/RFC_1123_DATE_TIME (get-pub-date rss-data))]
+      [:pubDate (.format DateTimeFormatter/RFC_1123_DATE_TIME (get-pub-date episodes))]
       [:lastBuildDate (.format DateTimeFormatter/RFC_1123_DATE_TIME (ZonedDateTime/now))]
       (map
         (fn [ep]
@@ -57,4 +57,4 @@
            [:itunes:summary]
            [:itunes:duration (:ep/duration ep)]
            [:itunes:keywords (clojure.string/join ", " (:ep/keywords ep))]])
-        (:episodes rss-data))]]))
+        episodes)]]))

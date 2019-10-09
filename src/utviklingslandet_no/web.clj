@@ -34,7 +34,7 @@
       (fn [episode]
         [:div
          [:p [:a {:href (:ep/link episode)} (:ep/title episode)]]])
-      (reverse (:episodes episodes)))))
+      (reverse episodes))))
 
 (defn get-episode-page [episode]
   (layout
@@ -51,11 +51,11 @@
       :allowfullscreen "true"}]))
 
 (defn get-pages []
-  (let [episodes (-> "episodes.edn" clojure.java.io/resource slurp clojure.edn/read-string)]
+  (let [{:keys [episodes]} (-> "episodes.edn" clojure.java.io/resource slurp clojure.edn/read-string)]
     (merge
       {"/" (get-home-page episodes)
        "/rss.xml" (rss/generate-rss episodes)}
-      (zipmap (map #(str (:ep/link %) "/") (:episodes episodes)) (map get-episode-page (:episodes episodes))))))
+      (zipmap (map #(str (:ep/link %) "/") episodes) (map get-episode-page episodes)))))
 
 (defn get-assets []
   (assets/load-assets "public" [#".*"]))
