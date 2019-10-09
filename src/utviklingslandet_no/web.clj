@@ -43,6 +43,8 @@
 
     [:p [:a {:href "/"} "< Tilbake til forsiden"]]
     [:h1 (:ep/title episode)]
+    [:p [:strong (:ep/subtitle episode)]]
+    [:p (:ep/description episode)]
     [:iframe
      {:width "560"
       :height "315"
