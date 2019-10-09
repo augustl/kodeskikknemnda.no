@@ -19,7 +19,7 @@
      [:link {:rel "stylesheet" :href "/site.css"}]]
     [:body body]))
 
-(defn get-home-page []
+(defn get-home-page [episodes]
   (layout
     "Utviklingslandet"
 
@@ -27,7 +27,14 @@
     [:p "Har du lyst til å høre på podcast?"]
     [:p "Søk på " [:strong "Utviklingslandet"] " i en podcast-app nær deg."]
     [:p "Og så har vi " [:a {:href "https://www.youtube.com/channel/UChpu1nP54SaYlFznoecHqKg"} "en YouTube-kanal"] ", da. We aim to please."]
-    [:p "Dessuten kan du følge oss på " [:a {:href "https://twitter.com/utviklingsland"} "twitter.com/utviklingsland"] "."]))
+    [:p "Dessuten kan du følge oss på " [:a {:href "https://twitter.com/utviklingsland"} "twitter.com/utviklingsland"] "."]
+
+    [:h2 "Episoder"]
+    (map
+      (fn [episode]
+        [:div
+         [:p [:a {:href (:ep/link episode)} (:ep/title episode)]]])
+      (reverse (:episodes episodes)))))
 
 (defn get-episode-page [episode]
   (layout
@@ -46,7 +53,7 @@
 (defn get-pages []
   (let [episodes (-> "episodes.edn" clojure.java.io/resource slurp clojure.edn/read-string)]
     (merge
-      {"/" (get-home-page)
+      {"/" (get-home-page episodes)
        "/rss.xml" (rss/generate-rss episodes)}
       (zipmap (map #(str (:ep/link %) "/") (:episodes episodes)) (map get-episode-page (:episodes episodes))))))
 
