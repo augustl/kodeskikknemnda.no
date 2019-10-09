@@ -25,9 +25,10 @@
 
     [:p "Dette er den supre websiden vår."]
     [:p "Har du lyst til å høre på podcast?"]
-    [:p "Søk på " [:strong "Utviklingslandet"] " i en podcast-app nær deg."]
-    [:p "Og så har vi " [:a {:href "https://www.youtube.com/channel/UChpu1nP54SaYlFznoecHqKg"} "en YouTube-kanal"] ", da. We aim to please."]
-    [:p "Dessuten kan du følge oss på " [:a {:href "https://twitter.com/utviklingsland"} "twitter.com/utviklingsland"] "."]
+    [:ul
+     [:li "Søk på " [:strong "Utviklingslandet"] " i en podcast-app nær deg."]
+     [:li [:a {:href "https://www.youtube.com/channel/UChpu1nP54SaYlFznoecHqKg"} "youtube.com"] " (kanal med alle episodene)"]
+     [:li [:a {:href "https://twitter.com/utviklingsland"} "twitter.com/utviklingsland"]]]
 
     [:h2 "Episoder"]
     (map
