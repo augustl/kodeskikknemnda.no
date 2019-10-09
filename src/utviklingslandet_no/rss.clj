@@ -43,7 +43,7 @@
         (fn [ep]
           [:item
            [:title (:ep/title ep)]
-           [:link (:ep/link ep)]
+           [:link (str "https://utviklingslandet.no" (:ep/link ep))]
            [:guid (:ep/guid ep)]
            [:description (:ep/description ep)]
            [:enclosure {:url (:ep/file-url ep) :type "audio/mpeg"}]

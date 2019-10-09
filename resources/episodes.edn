@@ -2,7 +2,8 @@
  [{:ep/title "#1 Hei"
    :ep/subtitle "Meta-podcast hvor vi mister tråden stadig vekk"
    :ep/description "Dette er første episode hvor vi snakker mest om hva vi vil med podcasten, helt til vi mister tråden og prater oss bort -- og drar oss inn igjen så godt vi kan."
-   :ep/link "https://utviklingslandet.no/ep/2019-04-10"
+   :ep/link "/ep/2019-04-10"
+   :ep/youtube-id "JxTwSKsxiEM"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-10-3.mp3"
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-001-blablabla.mp3"
    :ep/pub-date [2019 4 10]
@@ -13,7 +14,8 @@
   {:ep/title "#2 Open Source"
    :ep/description "Vi elsker Open Source, samtidig d###er vi i det i praksis. Hvorfor det?."
    :ep/subtitle "Hvorfor d###er vi i open source?"
-   :ep/link "https://utviklingslandet.no/ep/2019-04-16"
+   :ep/link "/ep/2019-04-16"
+   :ep/youtube-id "EcfzJubunjM"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-16.mp3"
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-002-driter-i-open-source.mp3"
    :ep/pub-date [2019 4 16]
@@ -24,7 +26,8 @@
   {:ep/title "#3 Pensjonert utvikler"
    :ep/description "En utvikler siden slutten av 70-tallet forteller hvordan detaljene hvordan det foregikk. Hvordan utvikle uten engang ha egen PC? Ingen debugging, ingen skjerm - sier du? Jepp."
    :ep/subtitle "En utvikler siden slutten av 70-tallet forteller detaljene rundt hvordan det foregikk. Hvordan utvikler en uten engang ha egen PC? Ingen debugging, ingen skjer - sier du? Jepp."
-   :ep/link "https://utviklingslandet.no/ep/2019-04-24"
+   :ep/link "/ep/2019-04-24"
+   :ep/youtube-id "MZBWojDOdB4&t=5s"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-24.mp3"
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-003-pensjonert-utvikler.mp3"
    :ep/pub-date [2019 4 24]
@@ -34,7 +37,8 @@
   {:ep/title "#4 Visste du om Vista?"
    :ep/description "Hvordan analysere om kode er buggy og dårlig, eller robust og stabil? Lint? Utviklererfaring? August har gravd og funnet en oppdagelse Microsoft har gjort som overraska oss voldsomt."
    :ep/subtitle "Hvordan analysere om kode er buggy og dårlig, eller robust og stabil? Lint? Utviklererfaring? Testdekning? August har funnet en oppdagelse Microsoft har gjort som overraska meg voldsomt."
-   :ep/link "https://utviklingslandet.no/ep/2019-05-08"
+   :ep/link "/ep/2019-05-08"
+   :ep/youtube-id "EvWa1Bl9BU4&t=105s"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-05-08.mp3"
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-004-visste-du-om-vista.mp3"
    :ep/pub-date [2019 5 9]
@@ -44,7 +48,8 @@
   {:ep/title "#5 Linus"
    :ep/description "August har refleksjoner rundt boka til Linus Tordvalds \"Just For Fun\" fra 2002. Vi snakker oss igjennom omstendighetene som ledet til Linux, og vi håper du synes det er like spennende som vi gjorde."
    :ep/subtitle "August har refleksjoner rundt boka til Linus Tordvalds \"Just For Fun\" fra 2002. Vi snakker oss igjennom omstendighetene som ledet til Linux, og vi håper du synes det er like spennende som vi gjorde."
-   :ep/link "https://utviklingslandet.no/ep/2019-06-26"
+   :ep/link "/ep/2019-06-26"
+   :ep/youtube-id "DetQZT4kWZ4"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-06-26.mp3"
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-005-linus.mp3"
    :ep/pub-date [2019 6 26]
@@ -55,7 +60,8 @@
   {:ep/title "#6 Hvordan unngå å drepe folk"
    :ep/subtitle "Er det noe vi kan lære av andre bransjer for å skrive tryggere software?"
    :ep/description "Vi ser på ting som har gått galt som følge av software-feil, og smarte ting folk har gjort for å redde liv."
-   :ep/link "https://utviklingslandet.no/ep/6-hvordan-unngaa-a-drepe-folk"
+   :ep/link "/ep/6-hvordan-unngaa-a-drepe-folk"
+   :ep/youtube-id "NI3ilBAX4VQ"
    :ep/guid "ep-006-hvordan-unngaa-aa-drepe-folk-7ea83d8f692c00535d579fff5eeea81e"
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-006-hvordan-unngaa-aa-drepe-folk.mp3"
    :ep/pub-date [2019 10 5]
