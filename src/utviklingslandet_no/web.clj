@@ -11,18 +11,30 @@
             [utviklingslandet-no.rss :as rss]
             [hiccup.core :as hiccup]))
 
-(defn layout [title & body]
+(defn layout [{:keys [title og]} & body]
   (hiccup.page/html5 {:lang "no"}
     [:head
      [:meta {:charset "utf-8"}]
-     [:title title]
+     [:title (or title "Utviklingslandet")]
+     (when-let [{:keys [title description]} og]
+       (list
+         [:meta {:property "og:locale" :content "no_NO"}]
+         [:meta {:name "twitter:card" :content "summary"}]
+         (when title
+           (list
+             [:meta {:property "og:title" :content title}]
+             [:meta {:name "twitter:title" :content title}]))
+         (when description
+           (list
+             [:meta {:property "og:description" :content description}]
+             [:meta {:name "twitter:description" :content description}]))))
      [:link {:type "application/rss+xml" :rel "alternate" :title "utviklingslandet.no" :href "https://utviklingslandet.no/rss.xml"}]
      [:link {:rel "stylesheet" :href "/site.css"}]]
     [:body body]))
 
 (defn get-home-page [episodes]
   (layout
-    "Utviklingslandet"
+    {:og {:title "Utviklingslandet - en podcast" :description "Finn Johnsen og August Lilleaas prøver så godt de kan å lære nye ting om programmering og sånt."}}
 
     [:p "Dette er den supre websiden vår."]
     [:p "Har du lyst til å høre på podcast?"]
@@ -40,7 +52,8 @@
 
 (defn get-episode-page [episode]
   (layout
-    (:ep/title episode)
+    {:title (:ep/title episode)
+     :og {:title (:ep/title episode) :description (:ep/description episode)}}
 
     [:p [:a {:href "/"} "< Tilbake til forsiden"]]
     [:h1 (:ep/title episode)]
