@@ -66,6 +66,21 @@
   {:ep/title "#6 Hvordan unngå å drepe folk"
    :ep/subtitle "Er det noe vi kan lære av andre bransjer for å skrive tryggere software?"
    :ep/description "Vi ser på ting som har gått galt som følge av software-feil, og smarte ting folk har gjort for å redde liv."
+   :ep/shownotes ([:p "ASRS: "
+                   [:a {:href "https://en.wikipedia.org/wiki/Aviation_Safety_Reporting_System"}
+                    "https://en.wikipedia.org/wiki/Aviation_Safety_Reporting_System"]]
+                  [:p "ASRS CALLBACK, nyhetsbrevet som publiseres månedlig: "
+                   [:a {:href "https://asrs.arc.nasa.gov/publications/callback.html"}
+                    "https://asrs.arc.nasa.gov/publications/callback.html"]]
+                  [:p "Mars Climate Orbiter: "
+                   [:a {:href "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter"}
+                    "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter"]]
+                  [:p "Therac-25: "
+                   [:a {:href "https://en.wikipedia.org/wiki/Therac-25"}
+                    "https://en.wikipedia.org/wiki/Therac-25"]]
+                  [:p "Google bug prediction: "
+                   [:a {:href "http://google-engtools.blogspot.com/2011/12/bug-prediction-at-google.html"}
+                    "http://google-engtools.blogspot.com/2011/12/bug-prediction-at-google.html"]])
    :ep/link "/ep/6-hvordan-unngaa-a-drepe-folk"
    :ep/youtube-id "NI3ilBAX4VQ"
    :ep/guid "ep-006-hvordan-unngaa-aa-drepe-folk-7ea83d8f692c00535d579fff5eeea81e"
