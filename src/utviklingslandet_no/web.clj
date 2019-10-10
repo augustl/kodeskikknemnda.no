@@ -59,8 +59,9 @@
     [:h2 "Episoder"]
     (map
       (fn [episode]
-        [:div
-         [:p [:a {:href (:ep/link episode)} (:ep/title episode)]]])
+        [:div.episode
+         [:h3 [:a {:href (:ep/link episode)} (:ep/title episode)]]
+         [:p (:ep/description episode)]])
       (reverse episodes))))
 
 (defn get-episode-page [episode]
