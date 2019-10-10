@@ -1,8 +1,9 @@
 body {
     max-width: 800px;
     margin: 0 auto;
-    font-size: 18px;
-    font-family: Georgia, serif;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.4;
 }
 
 a {
@@ -13,11 +14,15 @@ a {
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #222;
-        color: #eee;
+        color: #ccc;
     }
 
     a {
         color: #fff;
+    }
 
+    h1, h2 {
+        color: #999;
+        font-weight: normal;
     }
 }
