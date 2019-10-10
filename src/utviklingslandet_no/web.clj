@@ -36,12 +36,25 @@
   (layout
     {:og {:title "Utviklingslandet - en podcast" :description "Finn Johnsen og August Lilleaas prøver så godt de kan å lære nye ting om programmering og sånt."}}
 
-    [:p "Dette er den supre websiden vår."]
+    [:h1 "Velkommen til Utviklingslandet!"]
+
+    [:p "Nå skal vi kose oss."]
+
+    [:p "Uviklingslandet er en podcast med "
+     [:a {:href "http://johnsenf.blogspot.com/"} "Finn Johnsen"]
+     " og "
+     [:a {:href "https://augustl.com"} "August Lilleaas"]
+     ". Vi er software-utviklere, og prøver så godt vi kan å lære oss nye ting om programmering og sånt."]
+
     [:p "Har du lyst til å høre på podcast?"]
+
     [:ul
-     [:li "Søk på " [:strong "Utviklingslandet"] " i en podcast-app nær deg."]
+     [:li [:a {:href "https://podcasts.apple.com/no/podcast/utviklingslandet/id1459807906"} "iTunes"]]
+     [:li [:a {:href "https://podtail.com/no/podcast/utviklingslandet/"} "Podtail"]]
      [:li [:a {:href "https://www.youtube.com/channel/UChpu1nP54SaYlFznoecHqKg"} "youtube.com"] " (kanal med alle episodene)"]
      [:li [:a {:href "https://twitter.com/utviklingsland"} "twitter.com/utviklingsland"]]]
+
+    [:p "Eller bare søk på " [:strong "Utviklingslandet"] " i en podcast-app nær deg."]
 
     [:h2 "Episoder"]
     (map
