@@ -36,8 +36,9 @@
       [:itunes:summary "Finn Johnsen og August Lilleaas prøver så godt de kan å lære nye ting om programmering og sånt."]
       [:itunes:owner
        [:itunes:name "utviklingslandet.no"]
-       [:itunes:email "mail@utviklingslandet.no"]]
+       [:itunes:email "august@augustl.com"]]
       [:itunes:explicit "Yes"]
+      [:itunes:type "episodic"]
       [:itunes:image {:href "https://f002.backblazeb2.com/file/utviklingslandet-public/logo.jpg"}]
       [:itunes:category {:text "Technology"}
        [:itunes:category {:text "Programming"}]]
