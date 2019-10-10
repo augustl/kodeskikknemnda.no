@@ -8,7 +8,8 @@
             [hiccup.page]
             [prone.middleware :as prone]
             [clojure.edn]
-            [utviklingslandet-no.rss :as rss]))
+            [utviklingslandet-no.rss :as rss]
+            [hiccup.core :as hiccup]))
 
 (defn layout [title & body]
   (hiccup.page/html5 {:lang "no"}
@@ -51,7 +52,9 @@
       :src (str "https://www.youtube.com/embed/" (:ep/youtube-id episode))
       :frameborder "0"
       :allow "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      :allowfullscreen "true"}]))
+      :allowfullscreen "true"}]
+
+    (:ep/shownotes episode)))
 
 (defn get-pages []
   (let [{:keys [episodes]} (-> "episodes.edn" clojure.java.io/resource slurp clojure.edn/read-string)]
