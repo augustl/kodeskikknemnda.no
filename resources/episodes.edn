@@ -37,6 +37,12 @@
   {:ep/title "#4 Visste du om Vista?"
    :ep/description "Hvordan analysere om kode er buggy og dårlig, eller robust og stabil? Lint? Utviklererfaring? August har gravd og funnet en oppdagelse Microsoft har gjort som overraska oss voldsomt."
    :ep/subtitle "Hva lærte Microsoft etter flopp-releasen Windows Vista?"
+   :ep/shownotes ([:p "Studiet til Microsoft: "
+                   [:a {:href "https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/"}
+                    "https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/"]]
+                  [:p "Precision og recall: "
+                   [:a {:href "https://towardsdatascience.com/precision-vs-recall-386cf9f89488"}
+                    "https://towardsdatascience.com/precision-vs-recall-386cf9f89488"]])
    :ep/link "/ep/2019-05-08"
    :ep/youtube-id "EvWa1Bl9BU4"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-05-08.mp3"

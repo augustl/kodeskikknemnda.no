@@ -14,11 +14,15 @@
        (reverse)
        (first)))
 
+(defn cdata [val]
+  (str "<![CDATA[\n" val "\n]]>"))
+
 (defn generate-rss [episodes]
   (hiccup/html
     {:mode :xml}
     (hiccup.page/xml-declaration "UTF-8")
-    [:rss {"xmlns:itunes" "http://www.itunes.com/dtds/podcast-1.0.dtd" :version "2.0"}
+    [:rss {"xmlns:itunes" "http://www.itunes.com/dtds/podcast-1.0.dtd" :version "2.0"
+           "xmlns:content" "http://purl.org/rss/1.0/modules/content/"}
      [:channel
       [:title "Utviklingslandet"]
       [:description "Vi snakker om programmering"]
@@ -46,6 +50,8 @@
            [:link (str "https://utviklingslandet.no" (:ep/link ep))]
            [:guid (:ep/guid ep)]
            [:description (:ep/description ep)]
+           [:content:encoded
+            (cdata (hiccup/html (concat (list [:p (:ep/description ep)]) (:ep/shownotes ep))))]
            [:enclosure {:url (:ep/file-url ep) :type "audio/mpeg"}]
            [:category "Software development"]
            (let [ep-pub-date (:ep/pub-date ep)]
