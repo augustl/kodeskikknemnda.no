@@ -12,6 +12,13 @@ a {
     font-weight: bold;
 }
 
+.boom-headshot {
+    max-height: 300px;
+    width: auto;
+    display: inline-block;
+    margin-right: 10px;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #222;
