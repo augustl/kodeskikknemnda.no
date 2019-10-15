@@ -48,8 +48,8 @@
      ". Vi er software-utviklere, og prøver så godt vi kan å lære oss nye ting om programmering og sånt."]
 
 
-    [:img.boom-headshot {:src "/images/finn_da.jpg"}]
-    [:img.boom-headshot {:src "/images/august_da.jpg"}]
+    [:img.boom-headshot {:src "/images/finn_da.jpg" :alt "Finn Johnsen"}]
+    [:img.boom-headshot {:src "/images/august_da.jpg" :alt "August Lilleaas"}]
 
     [:p "Har du lyst til å høre på podcast?"]
 
