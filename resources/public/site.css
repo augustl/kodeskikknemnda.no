@@ -18,6 +18,15 @@ a {
     margin-right: 10px;
 }
 
+.episode {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #222;
@@ -31,5 +40,10 @@ a {
     h1, h2 {
         color: #999;
         font-weight: normal;
+    }
+
+    .episode {
+        border-color: #666;
+        background-color: #333;
     }
 }
