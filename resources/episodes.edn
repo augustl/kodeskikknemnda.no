@@ -42,7 +42,10 @@
                     "https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/"]]
                   [:p "Precision og recall: "
                    [:a {:href "https://towardsdatascience.com/precision-vs-recall-386cf9f89488"}
-                    "https://towardsdatascience.com/precision-vs-recall-386cf9f89488"]])
+                    "https://towardsdatascience.com/precision-vs-recall-386cf9f89488"]]
+                  [:p "Artikkel som oppsummerer denne episoden: "
+                   [:a {:href "https://www.kode24.no/guider/windows-vista-koden-viste-hva-som-gir-flest-bugs/71706398"}
+                    "https://kode24.no/guider/windows-vista-koden-viste-hva-som-gir-flest-bugs/71706398"]])
    :ep/link "/ep/2019-05-08"
    :ep/youtube-id "EvWa1Bl9BU4"
    :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-05-08.mp3"
