@@ -90,4 +90,28 @@
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-006-hvordan-unngaa-aa-drepe-folk.mp3"
    :ep/pub-date [2019 10 5]
    :ep/duration "00:37:21"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "ASTS" "FAA" "NASA"]}]}
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "ASTS" "FAA" "NASA"]}
+
+  {:ep/title "#7 OLTP igjennom monokkelen"
+   :ep/subtitle "Hvor mye koster multi-threading?"
+   :ep/description "Selvsagt er multi-threading bra. Eller er det det? Kan det bli for mye multi-threading?"
+   :ep/shownotes ([:p "OLTP through the looking glass: "
+                   [:a {:href "http://nms.csail.mit.edu/~stavros/pubs/OLTP_sigmod08.pdf"}
+                    "http://nms.csail.mit.edu/~stavros/pubs/OLTP_sigmod08.pdf"]]
+                  [:p "Microsoft SQL Server - Hekaton storage engine: "
+                   [:a {:href "https://www.microsoft.com/en-us/research/wp-content/uploads/2013/06/Hekaton-Sigmod2013-final.pdf"}
+                    "https://www.microsoft.com/en-us/research/wp-content/uploads/2013/06/Hekaton-Sigmod2013-final.pdf"]]
+                  [:p "Latch-free Synchronization in Database Systems: "
+                   [:a {:href "http://www.jmfaleiro.com/pubs/latch-free-cidr2017.pdf"}
+                    "http://www.jmfaleiro.com/pubs/latch-free-cidr2017.pdf"]]
+                  [:p "SE Radio Episode 199: Michael Stonebraker on Current Developments in Databases: "
+                   [:a {:href "https://www.se-radio.net/2013/12/episode-199-michael-stonebraker/"}
+                    "https://www.se-radio.net/2013/12/episode-199-michael-stonebraker/"]]
+                  )
+   :ep/link "/ep/7-oltp-igjennom-monokkelen"
+   :ep/youtube-id "NsBjHnY0qbU"
+   :ep/guid "ep-007-oltp-igjennom-monokkelen-8fcb901c77a2884c41dead2ca012ef54"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-007-oltp-igjennom-monokkelen.mp3"
+   :ep/pub-date [2019 11 1]
+   :ep/duration "00:30:32"
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "OLTP"]}]}
