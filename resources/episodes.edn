@@ -114,4 +114,22 @@
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-007-oltp-igjennom-monokkelen.mp3"
    :ep/pub-date [2019 11 1]
    :ep/duration "00:30:32"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "OLTP"]}]}
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "OLTP"]}
+
+  {:ep/title "#8 Den grønne hengelåsen"
+   :ep/subtitle "Vi graver i hva den grønne hengelåsen i nettleseren betyr for deg"
+   :ep/description "Internett gjøres sikkert av kryptering og HTTPS. Over 90% av dagens nettsider bruker HTTPS. Og det er vel kjempebra?"
+   :ep/shownotes ([:p "Mozilla Included CA Certificate List"
+                   [:a {:href "https://ccadb-public.secure.force.com/mozilla/IncludedCACertificateReport"}
+                    "https://ccadb-public.secure.force.com/mozilla/IncludedCACertificateReport"]])
+   :ep/link "/ep/8-den-gronne-hengelaasen"
+   :ep/youtube-id "xzGiF7OlPxE"
+   :ep/guid "ep-008-den-gronne-hengelasen-94a03d26492b12060d2b8ca1a73722ed"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-008-den-gronne-hengelasen.mp3"
+   :ep/pub-date [2019 11 17]
+   :ep/duration "00:50:09"
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "CA" "HTTPS" "SSL"]}
+
+  ]}
+
+
