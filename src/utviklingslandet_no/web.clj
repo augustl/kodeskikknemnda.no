@@ -45,7 +45,9 @@
      [:a {:href "http://johnsenf.blogspot.com/"} "Finn Johnsen"]
      " og "
      [:a {:href "https://augustl.com"} "August Lilleaas"]
-     ". Vi er software-utviklere, og prøver så godt vi kan å lære oss nye ting om programmering og sånt."]
+     "."]
+
+    [:p "Vi er software-utviklere, og prøver så godt vi kan å lære oss nye ting om programmering og sånt."]
 
 
     [:img.boom-headshot {:src "/images/finn_da.jpg" :title "Finn Johnsen"}]
