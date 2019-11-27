@@ -41,7 +41,7 @@
 
     [:p "Nå skal vi kose oss."]
 
-    [:p "Uviklingslandet er en podcast med "
+    [:p "Uviklingslandet er en Norsk podcast om software og programmering, med "
      [:a {:href "http://johnsenf.blogspot.com/"} "Finn Johnsen"]
      " og "
      [:a {:href "https://augustl.com"} "August Lilleaas"]
