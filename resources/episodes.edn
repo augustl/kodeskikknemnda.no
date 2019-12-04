@@ -130,6 +130,18 @@
    :ep/duration "00:50:09"
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "CA" "HTTPS" "SSL"]}
 
+  {:ep/title "#9 Smarttelefon"
+   :ep/subtitle "Smarttelefonen sveiper over landet (:D)"
+   :ep/description "Du skal ikke plage andre, du skal være grei og snill. Hjelp oss, EU!"
+   :ep/shownotes ([:p ""])
+   :ep/link "/ep/9-smarttelefon"
+   :ep/youtube-id "tmpb7jPTTkQ"
+   :ep/guid "ep-009-smarttelefon-13a40917d26e33c006c7db7ad74472de"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-009-smarttelefon.mp3"
+   :ep/pub-date [2019 12 4]
+   :ep/duration "00:45:57"
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "Smarttelefon" "GDPR" "EU"]}
+
   ]}
 
 
