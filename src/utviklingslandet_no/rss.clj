@@ -39,7 +39,7 @@
        [:itunes:email "august@augustl.com"]]
       [:itunes:explicit "Yes"]
       [:itunes:type "episodic"]
-      [:itunes:image {:href "https://f002.backblazeb2.com/file/utviklingslandet-public/logo.jpg"}]
+      [:itunes:image {:href "https://cdn.utviklingslandet.no/cover-art.jpg"}]
       [:itunes:category {:text "Technology"}
        [:itunes:category {:text "Programming"}]]
       [:pubDate (.format DateTimeFormatter/RFC_1123_DATE_TIME (get-pub-date episodes))]
