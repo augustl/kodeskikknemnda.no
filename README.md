@@ -2,5 +2,6 @@
 
 ## Howto
 
-1. Run `./build.sh`
-2. Upload contents of `dist/` folder to whereever
+1. Have AWS CLI 2.0 installed
+2. Run `make`
+3. Upload contents of `dist/` folder to whereever
