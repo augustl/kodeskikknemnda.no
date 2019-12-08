@@ -1,6 +1,7 @@
 .DEFAULT_GOAL := all
 .PHONY: build
 .PHONY: upload
+.PHONY: invalidate
 
 invalidate:
 	aws cloudfront create-invalidation --distribution-id E1HAXYWSPN0SDL --paths "/*"
