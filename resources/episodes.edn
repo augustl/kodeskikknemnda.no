@@ -142,6 +142,27 @@
    :ep/duration "00:45:57"
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "Smarttelefon" "GDPR" "EU"]}
 
+  {:ep/title "#10 Clojure"
+   :ep/subtitle "Finn har lært seg Clojure, og det prater vi om"
+   :ep/description "August er en lisp weenie fra før, Finn prøver å overleve, og det går ganske greit egentlig."
+   :ep/shownotes ([:p "Haskell: Practical as well as Cool (TechMesh 2012): "
+                   [:a {:href "https://secure.trifork.com/techmesh-london-2012/presentation/Keynote:%20Haskell:%20Practical%20as%20well%20as%20Cool"} "https://secure.trifork.com/techmesh-london-2012/presentation/Keynote:%20Haskell:%20Practical%20as%20well%20as%20Cool"]]
+                  [:p "Web Development With Clojure (3rd edition): "
+                   [:a {:href "https://pragprog.com/book/dswdcloj3/web-development-with-clojure-third-edition"} "https://pragprog.com/book/dswdcloj3/web-development-with-clojure-third-edition"]]
+                  [:p "Simple Made Easy: "
+                   [:a {:href "https://www.infoq.com/presentations/Simple-Made-Easy/"} "https://www.infoq.com/presentations/Simple-Made-Easy/"]]
+                  [:p "Clojure-utviklere tjener best: "
+                   [:a {:href "https://insights.stackoverflow.com/survey/2019#work-_-salary-and-experience-by-language"} "https://insights.stackoverflow.com/survey/2019#work-_-salary-and-experience-by-language"]]
+                  [:p "Ukas anbefalning er podcasten fra NRK: Hele historien: "
+                   [:a {:href "https://radio.nrk.no/podkast/hele_historien"} "https://radio.nrk.no/podkast/hele_historien"]])
+   :ep/link "/ep/10-clojure"
+   :ep/youtube-id "IgDTbP87x94 "
+   :ep/guid "ep-010-clojure-d533ba9d497a72bbd0cf6819827662c6"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-010-clojure.mp3"
+   :ep/pub-date [2020 1 23]
+   :ep/duration "00:45:59"
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas" "Clojure"]}
+
   ]}
 
 
