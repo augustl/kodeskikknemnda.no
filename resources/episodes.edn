@@ -156,8 +156,8 @@
                   [:p "Ukas anbefalning er podcasten fra NRK: Hele historien: "
                    [:a {:href "https://radio.nrk.no/podkast/hele_historien"} "https://radio.nrk.no/podkast/hele_historien"]])
    :ep/link "/ep/10-clojure"
-   :ep/youtube-id "IgDTbP87x94 "
-   :ep/guid "ep-010-clojure-d533ba9d497a72bbd0cf6819827662c6"
+   :ep/youtube-id "hpJ9adN5kVw"
+   :ep/guid "ep-010-clojure-3e37eb161cbecd833b3c7fe40c045327"
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-010-clojure.mp3"
    :ep/pub-date [2020 1 23]
    :ep/duration "00:45:59"
