@@ -5,6 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [optimus "1.0.0-rc2"]
+                 [optimus-img-transform "0.3.1"]
                  [stasis "2.5.0"]
                  [ring "1.8.0"]
                  [hiccup "1.0.5"]
