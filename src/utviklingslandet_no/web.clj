@@ -57,14 +57,18 @@
 
     [:ul
      [:li [:a {:href "https://podcasts.apple.com/no/podcast/utviklingslandet/id1459807906"} "iTunes"]]
-     [:li [:a {:href "https://pca.st/g86h"} "Pocket Casts"]]
-     [:li [:a {:href "https://open.spotify.com/show/0KZhH21gfYnDzb3XL4Aw0z?si=PuF5PPAxQeWUBnlCTfhuMA"} "Spotify"]]
-     [:li [:a {:href "https://podtail.com/no/podcast/utviklingslandet/"} "Podtail"]]
      [:li [:a {:href "https://www.youtube.com/channel/UChpu1nP54SaYlFznoecHqKg"} "youtube.com"] " (kanal med alle episodene)"]
-     [:li [:a {:href "https://twitter.com/utviklingsland"} "Twitter (@utviklingsland)"]]
-     [:li [:a {:href "https://www.facebook.com/utviklingslandet/"} "Facebook (@utviklingslandet)"]]]
+     [:li [:a {:href "https://open.spotify.com/show/0KZhH21gfYnDzb3XL4Aw0z?si=PuF5PPAxQeWUBnlCTfhuMA"} "Spotify"]]
+     [:li [:a {:href "https://pca.st/g86h"} "Pocket Casts"]]
+     [:li [:a {:href "https://podtail.com/no/podcast/utviklingslandet/"} "Podtail"]]]
 
     [:p "Eller bare søk på " [:strong "Utviklingslandet"] " i en podcast-app nær deg."]
+
+    [:p "Følg oss også gjerne på sosiale medier!"]
+
+    [:ul
+     [:li [:a {:href "https://twitter.com/utviklingsland"} "Twitter (@utviklingsland)"]]
+     [:li [:a {:href "https://www.facebook.com/utviklingslandet/"} "Facebook (@utviklingslandet)"]]]
 
     [:h2 "Episoder"]
     (map
