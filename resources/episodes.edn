@@ -174,6 +174,21 @@
    :ep/pub-date [2020 1 24]
    :ep/duration "00:35:21"
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
+
+  {:ep/title "#12 Tankefeil"
+   :ep/subtitle "Vi tenker på jobb, men det er vi ikke alltid så flinke til"
+   :ep/description "Fallacy, bias, tankefeil. Vi prøver så godt vi kan."
+   :ep/shownotes ([:p "List of fallacies (Wikipedia): "
+                   [:a {:href "https://en.wikipedia.org/wiki/List_of_fallacies"} "https://en.wikipedia.org/wiki/List_of_fallacies"]]
+                  [:p "Twitter MEGATHREAD om fallacies med mere: "
+                   [:a {:href "https://twitter.com/g_s_bhogal/status/1225561131122597896?s=21"} "https://twitter.com/g_s_bhogal/status/1225561131122597896?s=21"]])
+   :ep/link "/ep/12-tankefeil"
+   :ep/youtube-id "jrKdFWM4pgs"
+   :ep/guid "ep-012-tankefeil-ea7d5b32915134b4dc82dfed3dc83c14"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-012-tankefeil.mp3"
+   :ep/pub-date [2020 3 13]
+   :ep/duration "00:51:04"
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
   ]}
 
 
