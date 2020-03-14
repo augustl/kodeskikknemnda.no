@@ -159,7 +159,7 @@
    :ep/youtube-id "hpJ9adN5kVw"
    :ep/guid "ep-010-clojure-3e37eb161cbecd833b3c7fe40c045327"
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-010-clojure.mp3"
-   :ep/pub-date [2020 1 24]
+   :ep/pub-date [2020 1 24 0]
    :ep/duration "00:46:02"
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas" "Clojure"]}
 
@@ -171,7 +171,7 @@
    :ep/youtube-id "7N7syKTOYs0"
    :ep/guid "ep-011-lagre-ugyldig-data-c51656eecd498d4dd75a39b3754ca538"
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-011-lagre-ugyldig-data.mp3"
-   :ep/pub-date [2020 1 24]
+   :ep/pub-date [2020 1 24 12]
    :ep/duration "00:35:21"
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
 

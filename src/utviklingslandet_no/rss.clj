@@ -4,8 +4,8 @@
   (:import (java.time ZonedDateTime LocalDateTime ZoneId)
            (java.time.format DateTimeFormatter)))
 
-(defn parse-ep-pub-date [[y m d]]
-  (ZonedDateTime/of (LocalDateTime/of y m d 0 0) (ZoneId/of "Europe/Oslo")))
+(defn parse-ep-pub-date [[y m d & [h min]]]
+  (ZonedDateTime/of (LocalDateTime/of y m d (or h 0) (or min 0)) (ZoneId/of "Europe/Oslo")))
 
 (defn get-pub-date [episodes]
   (->> episodes
