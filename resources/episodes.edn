@@ -191,14 +191,14 @@
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
 
   {:ep/title "#13 REPL"
-   :ep/subtitle "Hvordan klarer man å ha hjemmekontor når man ikke har selvdisiplin?"
+   :ep/subtitle "Vi dykker dypere i Finn sitt nye liv som Clojure-utvikler."
    :ep/description "Read, Eval, Print, Loop"
    :ep/shownotes ([:p ""])
    :ep/link "/ep/13-repl/"
    :ep/youtube-id "9cYYk1xTh1o"
    :ep/guid "ep-013-repl-6835bc70b461e9cd6f923bc5b89123d6"
    :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-013-repl.mp3"
-   :ep/pub-date [2020 16 6]
+   :ep/pub-date [2020 6 16]
    :ep/duration "00:36:15"
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
   ]}
