@@ -201,6 +201,18 @@
    :ep/pub-date [2020 6 16]
    :ep/duration "00:36:15"
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
+
+  {:ep/title "#14 Hjemmekontor"
+   :ep/subtitle "Hvordan klarer man å ha hjemmekontor når man ikke har selvdisiplin?"
+   :ep/description "Det skjedde i de dager, hvor alle hadde hjemmekontor."
+   :ep/shownotes ([:p ""])
+   :ep/link "/ep/14-hjemmekontor"
+   :ep/youtube-id "Sl4Oi_guGyI"
+   :ep/guid "ep-014-hjemmekontor-babc20f295c92cdd29b6709227986c53"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-014-hjemmekontor.mp3"
+   :ep/pub-date [2020 4 6]
+   :ep/duration "00:56:59"
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
   ]}
 
 
