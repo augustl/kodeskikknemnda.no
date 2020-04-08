@@ -213,6 +213,21 @@
    :ep/pub-date [2020 4 6]
    :ep/duration "00:56:59"
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
+
+  {:ep/title "#15 Big 5 med Finn og August"
+   :ep/subtitle "Vi har tatt personlighetstest, og deler resultatene våre."
+   :ep/description "Jag rear ut min själ! Allt skall bort!!!"
+   :ep/shownotes ([:p "Big 5: "
+                   [:a {:href "https://en.wikipedia.org/wiki/Big_Five_personality_traits"} "https://en.wikipedia.org/wiki/Big_Five_personality_traits"]]
+                  [:p "Understand Myself - en ytterligere nedkokt big 5 personlighetstest, med kun 2 underfasetter: "
+                   [:a {:href "https://www.understandmyself.com/"} "https://www.understandmyself.com/"]])
+   :ep/link "/ep/15-big5-med-finn-og-august"
+   :ep/youtube-id "Gdy3E-FwDWs"
+   :ep/guid "ep-015-big5-med-finn-og-august-d664911eaff728a5bfafa197e8cfff8b"
+   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-015-big5-med-finn-og-august.mp3"
+   :ep/pub-date [2020 4 8]
+   :ep/duration "01:01:15"
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
   ]}
 
 
