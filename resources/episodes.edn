@@ -240,6 +240,18 @@
    :ep/pub-date [2020 4 10]
    :ep/duration "00:36:53"
    :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
+
+  {:ep/title "#17 Smittestopp-appen er bra"
+   :ep/subtitle "Personvern er viktig, men den debatten trenger ikke flere deltagere."
+   :ep/description "Vi snakker om de supre fordelene ved at smittestopp-appen tar vare på GPS-data, og lar andre ta personverndebatten."
+   :ep/shownotes ([:p ""])
+   :ep/link "/ep/17-smittestopp-appen-er-bra"
+   :ep/youtube-id "4NMwo0UX9WI"
+   :ep/guid "ep-017-smittestopp-appen-er-bra-5d2c61553794a4fe6dac047c55160ebb"
+     :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-017-smittestopp-appen-er-bra.mp3"
+   :ep/pub-date [2020 5 7]
+   :ep/duration "00:33:57"
+   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
   ]}
 
 
