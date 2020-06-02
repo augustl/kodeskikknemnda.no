@@ -2,7 +2,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
     font-family: Helvetica, Arial, sans-serif;
     line-height: 1.4;
 }
@@ -10,12 +10,6 @@ body {
 a {
     color: blue;
     font-weight: bold;
-}
-
-.boom-headshot {
-    max-height: 300px;
-    display: inline-block;
-    margin-right: 10px;
 }
 
 .episode {

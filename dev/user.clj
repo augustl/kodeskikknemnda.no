@@ -1,5 +1,5 @@
 (ns user
-  (:require [utviklingslandet-no.web :refer [app]]
+  (:require [kodeskikknemnda-no.web :refer [app]]
             [ring.adapter.jetty]))
 
 (defn start-server []

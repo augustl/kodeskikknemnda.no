@@ -1,4 +1,4 @@
-(ns utviklingslandet-no.web
+(ns kodeskikknemnda-no.web
   (:require [stasis.core :as stasis]
             [optimus.assets :as assets]
             [optimus.prime :as optimus]
@@ -8,7 +8,7 @@
             [hiccup.page]
             [prone.middleware :as prone]
             [clojure.edn]
-            [utviklingslandet-no.rss :as rss]
+            [kodeskikknemnda-no.rss :as rss]
             [hiccup.core :as hiccup]))
 
 (defn layout [{:keys [title og]} & body]
@@ -16,7 +16,7 @@
     [:head
      [:meta {:charset "utf-8"}]
      [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
-     [:title (or title "Utviklingslandet")]
+     [:title (or title "Kodeskikknemnda")]
      (when-let [{:keys [title description]} og]
        (list
          [:meta {:property "og:locale" :content "no_NO"}]
@@ -29,46 +29,33 @@
            (list
              [:meta {:property "og:description" :content description}]
              [:meta {:name "twitter:description" :content description}]))))
-     [:link {:type "application/rss+xml" :rel "alternate" :title "utviklingslandet.no" :href "https://utviklingslandet.no/rss.xml"}]
+     [:link {:type "application/rss+xml" :rel "alternate" :title "kodeskikknemnda.no" :href "https://kodeskikknemnda.no/rss.xml"}]
      [:link {:rel "stylesheet" :href "/site.css"}]]
     [:body body]))
 
 (defn get-home-page [episodes]
   (layout
-    {:og {:title "Utviklingslandet - en podcast" :description "Finn Johnsen og August Lilleaas prøver så godt de kan å lære nye ting om programmering og sånt."}}
+    {:og {:title "Kodeskikknemnda - en podcast" :description "En podcast om alt som rører seg i kode-landet Norge"}}
 
-    [:h1 "Velkommen til Utviklingslandet!"]
+    [:h1 "Velkommen til kodeskikknemnda!"]
 
-    [:p "Nå skal vi kose oss."]
-
-    [:p "Uviklingslandet er en Norsk podcast om software og programmering, med "
-     [:a {:href "http://johnsenf.blogspot.com/"} "Finn Johnsen"]
-     " og "
-     [:a {:href "https://augustl.com"} "August Lilleaas"]
-     "."]
-
-    [:p "Vi er software-utviklere, og prøver så godt vi kan å lære oss nye ting om programmering og sånt."]
-
-
-    [:img.boom-headshot {:src "/images/finn_da.jpg" :title "Finn Johnsen"}]
-    [:img.boom-headshot {:src "/images/august_da.jpg" :title "August Lilleaas"}]
+    [:p "Denne websiden er UNDER CONSTRUCTION."]
 
     [:p "Har du lyst til å høre på podcast?"]
 
     [:ul
-     [:li [:a {:href "https://podcasts.apple.com/no/podcast/utviklingslandet/id1459807906"} "iTunes"]]
-     [:li [:a {:href "https://www.youtube.com/channel/UChpu1nP54SaYlFznoecHqKg"} "youtube.com"] " (kanal med alle episodene)"]
+     [:li [:a {:href "https://podcasts.apple.com/no/podcast/kodeskikknemnda/id1459807906"} "iTunes"]]
+     [:li [:a {:href "https://www.youtube.com/channel/UCsjaBvxO4C7nMyebtkR_TQQ"} "youtube.com"] " (kanal med alle episodene)"]
      [:li [:a {:href "https://open.spotify.com/show/0KZhH21gfYnDzb3XL4Aw0z?si=PuF5PPAxQeWUBnlCTfhuMA"} "Spotify"]]
-     [:li [:a {:href "https://pca.st/g86h"} "Pocket Casts"]]
-     [:li [:a {:href "https://podtail.com/no/podcast/utviklingslandet/"} "Podtail"]]]
+     #_ [:li [:a {:href "https://pca.st/g86h"} "Pocket Casts"]]
+     #_ [:li [:a {:href "https://podtail.com/no/podcast/kodeskikknemnda/"} "Podtail"]]]
 
-    [:p "Eller bare søk på " [:strong "Utviklingslandet"] " i en podcast-app nær deg."]
+    [:p "Eller bare søk på " [:strong "kodeskikknemnda"] " i en podcast-app nær deg."]
 
     [:p "Følg oss også gjerne på sosiale medier!"]
 
     [:ul
-     [:li [:a {:href "https://twitter.com/utviklingsland"} "Twitter (@utviklingsland)"]]
-     [:li [:a {:href "https://www.facebook.com/utviklingslandet/"} "Facebook (@utviklingslandet)"]]]
+     [:li [:a {:href "https://twitter.com/kodeskikknemnda"} "Twitter (@kodeskikknemnda)"]]]
 
     [:h2 "Episoder"]
     (map

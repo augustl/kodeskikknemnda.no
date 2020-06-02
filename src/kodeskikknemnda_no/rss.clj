@@ -1,4 +1,4 @@
-(ns utviklingslandet-no.rss
+(ns kodeskikknemnda-no.rss
   (:require [hiccup.core :as hiccup]
             [hiccup.page])
   (:import (java.time ZonedDateTime LocalDateTime ZoneId)
@@ -24,22 +24,22 @@
     [:rss {"xmlns:itunes" "http://www.itunes.com/dtds/podcast-1.0.dtd" :version "2.0"
            "xmlns:content" "http://purl.org/rss/1.0/modules/content/"}
      [:channel
-      [:title "Utviklingslandet"]
-      [:description "Vi snakker om programmering"]
-      [:link "https://utviklingslandet.no"]
+      [:title "Kodeskikknemnda"]
+      [:description "En podcast om alt som rører seg i kode-landet Norge"]
+      [:link "https://kodeskikknemnda.no"]
       [:language "no"]
       [:copyright "Copyright 2019"]
       [:docs "http://blogs.law.harvard.edu/tech/rss"]
-      [:webMaster "mail@utviklingslandet.no"]
-      [:itunes:author "utviklingslandet.no"]
-      [:itunes:subtitle "Vi snakker om programmering"]
-      [:itunes:summary "Finn Johnsen og August Lilleaas prøver så godt de kan å lære nye ting om programmering og sånt."]
+      [:webMaster "august@augustl.com"]
+      [:itunes:author "Kodeskikknemnda"]
+      [:itunes:subtitle "August Lilleaas prater med folk om software"]
+      [:itunes:summary "En podcast om alt som rører seg i kode-landet Norge"]
       [:itunes:owner
-       [:itunes:name "utviklingslandet.no"]
+       [:itunes:name "kodeskikknemnda.no"]
        [:itunes:email "august@augustl.com"]]
-      [:itunes:explicit "Yes"]
+      [:itunes:explicit "No"]
       [:itunes:type "episodic"]
-      [:itunes:image {:href "https://cdn.utviklingslandet.no/cover-art.jpg"}]
+      [:itunes:image {:href "https://cdn.kodeskikknemnda.no/cover-art.jpg"}]
       [:itunes:category {:text "Technology"}
        [:itunes:category {:text "Programming"}]]
       [:pubDate (.format DateTimeFormatter/RFC_1123_DATE_TIME (get-pub-date episodes))]
@@ -48,7 +48,7 @@
         (fn [ep]
           [:item
            [:title (:ep/title ep)]
-           [:link (str "https://utviklingslandet.no" (:ep/link ep))]
+           [:link (str "https://kodeskikknemnda.no" (:ep/link ep))]
            [:guid (:ep/guid ep)]
            [:description (:ep/description ep)]
            [:content:encoded
@@ -57,7 +57,7 @@
            [:category "Software development"]
            (let [ep-pub-date (:ep/pub-date ep)]
              [:pubDate (.format DateTimeFormatter/RFC_1123_DATE_TIME (parse-ep-pub-date ep-pub-date))])
-           [:itunes:author "Utviklingslandet"]
+           [:itunes:author "Kodeskikknemnda"]
            [:itunes:explicit (if (:ep/explicit ep) "Yes" "No")]
            (when-let [subtitle (:ep/subtitle ep)]
              [:itunes:subtitle subtitle])

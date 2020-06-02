@@ -1,4 +1,4 @@
-## utviklingslandet.no
+## kodeskikknemnda.no
 
 ## Howto
 

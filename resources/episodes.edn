@@ -1,257 +1,29 @@
 {:episodes
- [{:ep/title "#1 Hei"
-   :ep/subtitle "Meta-podcast hvor vi mister tråden stadig vekk"
-   :ep/description "Dette er første episode hvor vi snakker mest om hva vi vil med podcasten, helt til vi mister tråden og prater oss bort -- og drar oss inn igjen så godt vi kan."
-   :ep/link "/ep/2019-04-10"
-   :ep/youtube-id "JxTwSKsxiEM"
-   :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-10-3.mp3"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-001-blablabla.mp3"
-   :ep/pub-date [2019 4 10]
-   :ep/duration "00:46:24"
-   :ep/explicit true
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
-
-  {:ep/title "#2 Open Source"
-   :ep/description "Vi elsker Open Source, samtidig d###er vi i det i praksis. Hvorfor det?."
-   :ep/subtitle "Hvorfor d###er vi i open source?"
-   :ep/link "/ep/2019-04-16"
-   :ep/youtube-id "EcfzJubunjM"
-   :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-16.mp3"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-002-driter-i-open-source.mp3"
-   :ep/pub-date [2019 4 16]
-   :ep/duration "00:26:00"
-   :ep/explicit true
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "open source" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
-
-  {:ep/title "#3 Pensjonert utvikler"
-   :ep/description "En utvikler siden slutten av 70-tallet forteller hvordan detaljene hvordan det foregikk. Hvordan utvikle uten engang ha egen PC? Ingen debugging, ingen skjerm - sier du? Jepp."
-   :ep/subtitle "Vi snakker med en eksotisk utvikler som kan masse om ting vi ikke kan noe om."
-   :ep/link "/ep/2019-04-24"
-   :ep/youtube-id "MZBWojDOdB4"
-   :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-04-24.mp3"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-003-pensjonert-utvikler.mp3"
-   :ep/pub-date [2019 4 24]
-   :ep/duration "01:47:13"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas" "Georg Fekete" "Georgy Fekete"]}
-
-  {:ep/title "#4 Visste du om Vista?"
-   :ep/description "Hvordan analysere om kode er buggy og dårlig, eller robust og stabil? Lint? Utviklererfaring? August har gravd og funnet en oppdagelse Microsoft har gjort som overraska oss voldsomt."
-   :ep/subtitle "Hva lærte Microsoft etter flopp-releasen Windows Vista?"
-   :ep/shownotes ([:p "Studiet til Microsoft: "
-                   [:a {:href "https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/"}
-                    "https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/"]]
-                  [:p "Precision og recall: "
-                   [:a {:href "https://towardsdatascience.com/precision-vs-recall-386cf9f89488"}
-                    "https://towardsdatascience.com/precision-vs-recall-386cf9f89488"]]
-                  [:p "Artikkel som oppsummerer denne episoden: "
-                   [:a {:href "https://www.kode24.no/guider/windows-vista-koden-viste-hva-som-gir-flest-bugs/71706398"}
-                    "https://kode24.no/guider/windows-vista-koden-viste-hva-som-gir-flest-bugs/71706398"]])
-   :ep/link "/ep/2019-05-08"
+ [{:ep/title "#1 Ardoq - om å bruke en sær teknologi, Clojure (Erik Assum)"
+   :ep/description "Erik Assum fra Ardoq forteller om hvordan livet er i et selskap som har valgt å bruke et sært og lite utbredt programmeringsspråk - Clojure."
+   :ep/subtitle "Hvordan får man til å ansette folk når man velger et programmeringsspråk som ingen kan?"
+   :ep/shownotes ([:p {} [:img {:style "max-width: 600px" :src "https://s3-eu-west-1.amazonaws.com/cdn.kodeskikknemnda.no/episodes/001/IMG_1334.jpg"}]]
+                  [:p "Erik på " [:a {:href "https://twitter.com/slipset"} "Twitter (@slipset)"] " og på " [:a {:href "https://github.com/slipset"} "GitHub"] "."]
+                  [:p "Ardoq søker folk! " [:a {:href "https://www.ardoq.com/about-ardoq#careers"} "https://www.ardoq.com/about-ardoq#careers"]]
+                  [:p "Erik sin presentasjon, " [:a {:href "https://vimeo.com/145014129"} "Konsulenteriet må DØ!"] " (Smidig-konferansen, 2015)"]
+                  [:p "Economies of Scala (bloggpost, 2013): "
+                   [:a {:href "https://blog.iterate.no/2013/04/18/economies-of-scala/"}
+                    "https://blog.iterate.no/2013/04/18/economies-of-scala/"]]
+                  [:p "Economies of Scala (presentasjon, JavaZone 2013): "
+                   [:a {:href "https://vimeo.com/74354373"}
+                    "https://vimeo.com/74354373"]]
+                  [:p "Bloggpost, Devops! Dev? Ops! "
+                   [:a {:href "https://www.kodemaker.no/blogg/2019-12-devops/"} "https://www.kodemaker.no/blogg/2019-12-devops/"]]
+                  [:p "Bloggpost, Verdt å vite om Set i JavaScript "
+                   [:a {:href "https://www.kodemaker.no/blogg/2019-10-javascript-sets/"} "https://www.kodemaker.no/blogg/2019-10-javascript-sets/"]]
+                  [:p "Utviklingslandet: Visste du om Vista? Organisasjonskompleksitet er kilden til de fleste bugs. "
+                   [:a {:href "https://utviklingslandet.no/ep/2019-05-08/"} "https://utviklingslandet.no/ep/2019-05-08/"]])
+   :ep/link "/ep/1-ardoq-clojure"
    :ep/youtube-id "EvWa1Bl9BU4"
-   :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-05-08.mp3"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-004-visste-du-om-vista.mp3"
-   :ep/pub-date [2019 5 9]
-   :ep/duration "00:42:36"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas" "Windows Vista"]}
-
-  {:ep/title "#5 Linus"
-   :ep/description "Vi snakker oss igjennom omstendighetene som ledet til Linux, og vi håper du synes det er like spennende som vi gjorde."
-   :ep/subtitle "August har refleksjoner rundt boka til Linus Tordvalds \"Just For Fun\" fra 2002."
-   :ep/link "/ep/2019-06-26"
-   :ep/youtube-id "DetQZT4kWZ4"
-   :ep/guid "https://f002.backblazeb2.com/file/utviklingslandet-public/ep/2019-06-26.mp3"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-005-linus.mp3"
-   :ep/pub-date [2019 6 26]
-   :ep/duration "00:35:56"
-   :ep/explicit true
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "Linux" "Linus Torvalds"]}
-
-  {:ep/title "#6 Hvordan unngå å drepe folk"
-   :ep/subtitle "Er det noe vi kan lære av andre bransjer for å skrive tryggere software?"
-   :ep/description "Vi ser på ting som har gått galt som følge av software-feil, og smarte ting folk har gjort for å redde liv."
-   :ep/shownotes ([:p "ASRS: "
-                   [:a {:href "https://en.wikipedia.org/wiki/Aviation_Safety_Reporting_System"}
-                    "https://en.wikipedia.org/wiki/Aviation_Safety_Reporting_System"]]
-                  [:p "ASRS CALLBACK, nyhetsbrevet som publiseres månedlig: "
-                   [:a {:href "https://asrs.arc.nasa.gov/publications/callback.html"}
-                    "https://asrs.arc.nasa.gov/publications/callback.html"]]
-                  [:p "Mars Climate Orbiter: "
-                   [:a {:href "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter"}
-                    "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter"]]
-                  [:p "Therac-25: "
-                   [:a {:href "https://en.wikipedia.org/wiki/Therac-25"}
-                    "https://en.wikipedia.org/wiki/Therac-25"]]
-                  [:p "Google bug prediction: "
-                   [:a {:href "http://google-engtools.blogspot.com/2011/12/bug-prediction-at-google.html"}
-                    "http://google-engtools.blogspot.com/2011/12/bug-prediction-at-google.html"]])
-   :ep/link "/ep/6-hvordan-unngaa-a-drepe-folk"
-   :ep/youtube-id "NI3ilBAX4VQ"
-   :ep/guid "ep-006-hvordan-unngaa-aa-drepe-folk-7ea83d8f692c00535d579fff5eeea81e"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-006-hvordan-unngaa-aa-drepe-folk.mp3"
-   :ep/pub-date [2019 10 5]
-   :ep/duration "00:37:21"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "ASTS" "FAA" "NASA"]}
-
-  {:ep/title "#7 OLTP igjennom monokkelen"
-   :ep/subtitle "Hvor mye koster multi-threading?"
-   :ep/description "Selvsagt er multi-threading bra. Eller er det det? Kan det bli for mye multi-threading?"
-   :ep/shownotes ([:p "OLTP through the looking glass: "
-                   [:a {:href "http://nms.csail.mit.edu/~stavros/pubs/OLTP_sigmod08.pdf"}
-                    "http://nms.csail.mit.edu/~stavros/pubs/OLTP_sigmod08.pdf"]]
-                  [:p "Microsoft SQL Server - Hekaton storage engine: "
-                   [:a {:href "https://www.microsoft.com/en-us/research/wp-content/uploads/2013/06/Hekaton-Sigmod2013-final.pdf"}
-                    "https://www.microsoft.com/en-us/research/wp-content/uploads/2013/06/Hekaton-Sigmod2013-final.pdf"]]
-                  [:p "Latch-free Synchronization in Database Systems: "
-                   [:a {:href "http://www.jmfaleiro.com/pubs/latch-free-cidr2017.pdf"}
-                    "http://www.jmfaleiro.com/pubs/latch-free-cidr2017.pdf"]]
-                  [:p "SE Radio Episode 199: Michael Stonebraker on Current Developments in Databases: "
-                   [:a {:href "https://www.se-radio.net/2013/12/episode-199-michael-stonebraker/"}
-                    "https://www.se-radio.net/2013/12/episode-199-michael-stonebraker/"]]
-                  )
-   :ep/link "/ep/7-oltp-igjennom-monokkelen"
-   :ep/youtube-id "NsBjHnY0qbU"
-   :ep/guid "ep-007-oltp-igjennom-monokkelen-8fcb901c77a2884c41dead2ca012ef54"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-007-oltp-igjennom-monokkelen.mp3"
-   :ep/pub-date [2019 11 1]
-   :ep/duration "00:30:32"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "OLTP"]}
-
-  {:ep/title "#8 Den grønne hengelåsen"
-   :ep/subtitle "Vi graver i hva den grønne hengelåsen i nettleseren betyr for deg"
-   :ep/description "Internett gjøres sikkert av kryptering og HTTPS. Over 90% av dagens nettsider bruker HTTPS. Og det er vel kjempebra?"
-   :ep/shownotes ([:p "Mozilla Included CA Certificate List"
-                   [:a {:href "https://ccadb-public.secure.force.com/mozilla/IncludedCACertificateReport"}
-                    "https://ccadb-public.secure.force.com/mozilla/IncludedCACertificateReport"]])
-   :ep/link "/ep/8-den-gronne-hengelaasen"
-   :ep/youtube-id "xzGiF7OlPxE"
-   :ep/guid "ep-008-den-gronne-hengelasen-94a03d26492b12060d2b8ca1a73722ed"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-008-den-gronne-hengelasen.mp3"
-   :ep/pub-date [2019 11 17]
-   :ep/duration "00:50:09"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "CA" "HTTPS" "SSL"]}
-
-  {:ep/title "#9 Smarttelefon"
-   :ep/subtitle "Smarttelefonen sveiper over landet (:D)"
-   :ep/description "Du skal ikke plage andre, du skal være grei og snill. Hjelp oss, EU!"
-   :ep/shownotes ([:p ""])
-   :ep/link "/ep/9-smarttelefon"
-   :ep/youtube-id "tmpb7jPTTkQ"
-   :ep/guid "ep-009-smarttelefon-13a40917d26e33c006c7db7ad74472de"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-009-smarttelefon.mp3"
-   :ep/pub-date [2019 12 4]
-   :ep/duration "00:45:57"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "Smarttelefon" "GDPR" "EU"]}
-
-  {:ep/title "#10 Clojure"
-   :ep/subtitle "Finn har lært seg Clojure, og det prater vi om"
-   :ep/description "August er en lisp weenie fra før, Finn prøver å overleve, og det går ganske greit egentlig."
-   :ep/shownotes ([:p "Haskell: Practical as well as Cool (TechMesh 2012): "
-                   [:a {:href "https://secure.trifork.com/techmesh-london-2012/presentation/Keynote:%20Haskell:%20Practical%20as%20well%20as%20Cool"} "https://secure.trifork.com/techmesh-london-2012/presentation/Keynote:%20Haskell:%20Practical%20as%20well%20as%20Cool"]]
-                  [:p "Web Development With Clojure (3rd edition): "
-                   [:a {:href "https://pragprog.com/book/dswdcloj3/web-development-with-clojure-third-edition"} "https://pragprog.com/book/dswdcloj3/web-development-with-clojure-third-edition"]]
-                  [:p "Simple Made Easy: "
-                   [:a {:href "https://www.infoq.com/presentations/Simple-Made-Easy/"} "https://www.infoq.com/presentations/Simple-Made-Easy/"]]
-                  [:p "Clojure-utviklere tjener best: "
-                   [:a {:href "https://insights.stackoverflow.com/survey/2019#work-_-salary-and-experience-by-language"} "https://insights.stackoverflow.com/survey/2019#work-_-salary-and-experience-by-language"]]
-                  [:p "Ukas anbefalning er podcasten fra NRK: Hele historien: "
-                   [:a {:href "https://radio.nrk.no/podkast/hele_historien"} "https://radio.nrk.no/podkast/hele_historien"]])
-   :ep/link "/ep/10-clojure"
-   :ep/youtube-id "hpJ9adN5kVw"
-   :ep/guid "ep-010-clojure-3e37eb161cbecd833b3c7fe40c045327"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-010-clojure.mp3"
-   :ep/pub-date [2020 1 24 0]
-   :ep/duration "00:46:02"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas" "Clojure"]}
-
-  {:ep/title "#11 Lagre ugyldig data"
-   :ep/subtitle "Det alle brukere av IT-systemer elsker, er feilmeldinger"
-   :ep/description "August mener at vi bør tenke oss litt om før vi nekter folk å putte data inn i databasene våre"
-   :ep/shownotes ([:p ""])
-   :ep/link "/ep/11-lagre-ugyldig-data"
-   :ep/youtube-id "7N7syKTOYs0"
-   :ep/guid "ep-011-lagre-ugyldig-data-c51656eecd498d4dd75a39b3754ca538"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-011-lagre-ugyldig-data.mp3"
-   :ep/pub-date [2020 1 24 12]
-   :ep/duration "00:35:21"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
-
-  {:ep/title "#12 Tankefeil"
-   :ep/subtitle "Vi tenker på jobb, men det er vi ikke alltid så flinke til"
-   :ep/description "Fallacy, bias, tankefeil. Vi prøver så godt vi kan."
-   :ep/shownotes ([:p "List of fallacies (Wikipedia): "
-                   [:a {:href "https://en.wikipedia.org/wiki/List_of_fallacies"} "https://en.wikipedia.org/wiki/List_of_fallacies"]]
-                  [:p "Twitter MEGATHREAD om fallacies med mere: "
-                   [:a {:href "https://twitter.com/g_s_bhogal/status/1225561131122597896?s=21"} "https://twitter.com/g_s_bhogal/status/1225561131122597896?s=21"]])
-   :ep/link "/ep/12-tankefeil"
-   :ep/youtube-id "jrKdFWM4pgs"
-   :ep/guid "ep-012-tankefeil-ea7d5b32915134b4dc82dfed3dc83c14"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-012-tankefeil.mp3"
-   :ep/pub-date [2020 3 13]
-   :ep/duration "00:51:04"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
-
-  {:ep/title "#13 REPL"
-   :ep/subtitle "Vi dykker dypere i Finn sitt nye liv som Clojure-utvikler."
-   :ep/description "Read, Eval, Print, Loop"
-   :ep/shownotes ([:p ""])
-   :ep/link "/ep/13-repl/"
-   :ep/youtube-id "9cYYk1xTh1o"
-   :ep/guid "ep-013-repl-6835bc70b461e9cd6f923bc5b89123d6"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-013-repl.mp3"
-   :ep/pub-date [2020 3 16]
-   :ep/duration "00:36:15"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
-
-  {:ep/title "#14 Hjemmekontor"
-   :ep/subtitle "Hvordan klarer man å ha hjemmekontor når man ikke har selvdisiplin?"
-   :ep/description "Det skjedde i de dager, hvor alle hadde hjemmekontor."
-   :ep/shownotes ([:p ""])
-   :ep/link "/ep/14-hjemmekontor"
-   :ep/youtube-id "Sl4Oi_guGyI"
-   :ep/guid "ep-014-hjemmekontor-babc20f295c92cdd29b6709227986c53"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-014-hjemmekontor.mp3"
-   :ep/pub-date [2020 4 6]
-   :ep/duration "00:56:59"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
-
-  {:ep/title "#15 Big 5 med Finn og August"
-   :ep/subtitle "Vi har tatt personlighetstest, og deler resultatene våre."
-   :ep/description "Jag rear ut min själ! Allt skall bort!!!"
-   :ep/shownotes ([:p "Big 5: "
-                   [:a {:href "https://en.wikipedia.org/wiki/Big_Five_personality_traits"} "https://en.wikipedia.org/wiki/Big_Five_personality_traits"]]
-                  [:p "Understand Myself - en ytterligere nedkokt big 5 personlighetstest, med kun 2 underfasetter: "
-                   [:a {:href "https://www.understandmyself.com/"} "https://www.understandmyself.com/"]])
-   :ep/link "/ep/15-big5-med-finn-og-august"
-   :ep/youtube-id "Gdy3E-FwDWs"
-   :ep/guid "ep-015-big5-med-finn-og-august-d664911eaff728a5bfafa197e8cfff8b"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-015-big5-med-finn-og-august.mp3"
-   :ep/pub-date [2020 4 8]
-   :ep/duration "01:01:15"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
-
-  {:ep/title "#16 Finn sitt fiendtlige smarthus"
-   :ep/subtitle "Når det brenner, men låsen har bugs"
-   :ep/description "Smartlåser bør helst alltid fungere, særlig når man steker rundstykker"
-   :ep/shownotes ([:p ""])
-   :ep/link "/ep/16-finn-sitt-fiendtlige-smarthus"
-   :ep/youtube-id "kmbV7PF2BdA"
-   :ep/guid "ep-016-finn-sitt-fiendtlige-smarthus-5d2c61553794a4fe6dac047c55160ebb"
-   :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-016-finn-sitt-fiendtlige-smarthus.mp3"
-   :ep/pub-date [2020 4 10]
-   :ep/duration "00:36:53"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
-
-  {:ep/title "#17 Smittestopp-appen er bra"
-   :ep/subtitle "Personvern er viktig, men den debatten trenger ikke flere deltagere."
-   :ep/description "Vi snakker om de supre fordelene ved at smittestopp-appen tar vare på GPS-data, og lar andre ta personverndebatten."
-   :ep/shownotes ([:p ""])
-   :ep/link "/ep/17-smittestopp-appen-er-bra"
-   :ep/youtube-id "ZVFpq0SI37E"
-   :ep/guid "ep-017-smittestopp-appen-er-bra-326d9818d874ed0d0f94131af4ba55bd"
-     :ep/file-url "https://cdn.utviklingslandet.no/episodes/ep-017-smittestopp-appen-er-bra.mp3"
-   :ep/pub-date [2020 5 7]
-   :ep/duration "00:33:57"
-   :ep/keywords ["utviklingslandet" "programmering" "utvikling" "softwareutvikling" "norsk" "norge" "Finn Johnsen" "August Lilleaas"]}
-  ]}
+   :ep/guid "ep-001-ardoq-6835bc70b461e9cd6f923bc5b89123d6"
+   :ep/file-url "https://cdn.kodeskikknemnda.no/episodes/ep-001-ardoq.mp3"
+   :ep/pub-date [2020 6 1]
+   :ep/duration "01:02:34"
+   :ep/keywords ["Kodeskikknemnda" "programmering" "software" "norsk" "norge" "August Lilleaas" "Erik Assum" "Clojure" "Ardoq"]}]}
 
 

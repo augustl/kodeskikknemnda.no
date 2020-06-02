@@ -14,6 +14,6 @@ build:
 	lein build-site
 
 upload:
-	aws s3 sync dist/ s3://utviklingslandet.no/ --delete
+	aws s3 sync dist/ s3://kodeskikknemnda.no/ --delete
 
 all: build upload
