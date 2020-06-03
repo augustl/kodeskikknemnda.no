@@ -44,7 +44,7 @@
     [:p "Har du lyst til å høre på podcast?"]
 
     [:ul
-     [:li [:a {:href "https://podcasts.apple.com/no/podcast/kodeskikknemnda/id1459807906"} "iTunes"]]
+     [:li [:a {:href "https://podcasts.apple.com/no/podcast/kodeskikknemnda/id1516687555"} "iTunes"]]
      [:li [:a {:href "https://www.youtube.com/channel/UCsjaBvxO4C7nMyebtkR_TQQ"} "youtube.com"] " (kanal med alle episodene)"]
      [:li [:a {:href "https://open.spotify.com/show/0KZhH21gfYnDzb3XL4Aw0z?si=PuF5PPAxQeWUBnlCTfhuMA"} "Spotify"]]
      #_ [:li [:a {:href "https://pca.st/g86h"} "Pocket Casts"]]
