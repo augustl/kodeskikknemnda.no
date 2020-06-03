@@ -6,6 +6,9 @@
                   [:p "Erik på " [:a {:href "https://twitter.com/slipset"} "Twitter (@slipset)"] " og på " [:a {:href "https://github.com/slipset"} "GitHub"] "."]
                   [:p "Ardoq søker folk! " [:a {:href "https://www.ardoq.com/about-ardoq#careers"} "https://www.ardoq.com/about-ardoq#careers"]]
                   [:p "Erik sin presentasjon, " [:a {:href "https://vimeo.com/145014129"} "Konsulenteriet må DØ!"] " (Smidig-konferansen, 2015)"]
+                  [:p "Paul Graham: Beating The Averages (2001): "
+                   [:a {:href "http://www.paulgraham.com/avg.html"}
+                    "http://www.paulgraham.com/avg.html"]]
                   [:p "Economies of Scala (bloggpost, 2013): "
                    [:a {:href "https://blog.iterate.no/2013/04/18/economies-of-scala/"}
                     "https://blog.iterate.no/2013/04/18/economies-of-scala/"]]
