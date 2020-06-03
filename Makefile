@@ -5,10 +5,10 @@
 .PHONY: invalidate-cdn
 
 invalidate:
-	aws cloudfront create-invalidation --distribution-id E1HAXYWSPN0SDL --paths "/*"
+	aws cloudfront create-invalidation --distribution-id E39FY9Y5CBQ09S --paths "/*"
 
 invalidate-cdn:
-	aws cloudfront create-invalidation --distribution-id E1S08RXGC67RG7 --paths "/*"
+	aws cloudfront create-invalidation --distribution-id E1E5BYWITSX61Y --paths "/*"
 
 build:
 	lein build-site
