@@ -14,3 +14,4 @@ checkouts
 .nrepl-port
 target
 .firebase
+infra/.terraform
