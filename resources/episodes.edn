@@ -2,7 +2,7 @@
  [{:ep/title "#1 Ardoq - om å bruke en sær teknologi, Clojure (Erik Assum)"
    :ep/description "Erik Assum fra Ardoq forteller om hvordan livet er i et selskap som har valgt å bruke et sært og lite utbredt programmeringsspråk - Clojure."
    :ep/subtitle "Hvordan får man til å ansette folk når man velger et programmeringsspråk som ingen kan?"
-   :ep/shownotes ([:p {} [:img {:style "max-width: 600px" :src "https://s3-eu-west-1.amazonaws.com/cdn.kodeskikknemnda.no/episodes/001/IMG_1334.jpg"}]]
+   :ep/shownotes ([:p {} [:img {:style "max-width: 560px" :src "https://s3-eu-west-1.amazonaws.com/cdn.kodeskikknemnda.no/episodes/001/IMG_1334.jpg"}]]
                   [:p "Erik på " [:a {:href "https://twitter.com/slipset"} "Twitter (@slipset)"] " og på " [:a {:href "https://github.com/slipset"} "GitHub"] "."]
                   [:p "Ardoq søker folk! " [:a {:href "https://www.ardoq.com/about-ardoq#careers"} "https://www.ardoq.com/about-ardoq#careers"]]
                   [:p "Erik sin presentasjon, " [:a {:href "https://vimeo.com/145014129"} "Konsulenteriet må DØ!"] " (Smidig-konferansen, 2015)"]
