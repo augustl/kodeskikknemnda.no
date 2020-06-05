@@ -21,6 +21,28 @@ a {
     padding: 0px 10px;
 }
 
+
+.youtube-embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.youtube-embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.shownotes img {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #222;

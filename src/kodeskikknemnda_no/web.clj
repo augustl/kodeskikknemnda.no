@@ -74,15 +74,15 @@
     [:h1 (:ep/title episode)]
     [:p [:strong (:ep/subtitle episode)]]
     [:p (:ep/description episode)]
-    [:iframe
-     {:width "560"
-      :height "315"
-      :src (str "https://www.youtube.com/embed/" (:ep/youtube-id episode))
-      :frameborder "0"
-      :allow "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      :allowfullscreen "true"}]
+    [:div.youtube-embed-container
+     [:iframe
+      {:src (str "https://www.youtube.com/embed/" (:ep/youtube-id episode))
+       :frameborder "0"
+       :allow "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+       :allowfullscreen "true"}]]
 
-    (:ep/shownotes episode)))
+    [:div.shownotes
+     (:ep/shownotes episode)]))
 
 (defn get-pages []
   (let [{:keys [episodes]} (-> "episodes.edn" clojure.java.io/resource slurp clojure.edn/read-string)]
