@@ -17,10 +17,11 @@
      [:meta {:charset "utf-8"}]
      [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
      [:title (or title "Kodeskikknemnda")]
-     (when-let [{:keys [title description]} og]
+     (when-let [{:keys [title description photo-url]} og]
        (list
          [:meta {:property "og:locale" :content "no_NO"}]
          [:meta {:name "twitter:card" :content "summary"}]
+         [:meta {:name "twitter:creator:id" :content "kodeskikknemnda"}]
          (when title
            (list
              [:meta {:property "og:title" :content title}]
@@ -28,7 +29,11 @@
          (when description
            (list
              [:meta {:property "og:description" :content description}]
-             [:meta {:name "twitter:description" :content description}]))))
+             [:meta {:name "twitter:description" :content description}]))
+         (when photo-url
+           (list
+             [:meta {:property "og:image" :content photo-url}]
+             [:meta {:name "twitter:image" :content photo-url}]))))
      [:link {:type "application/rss+xml" :rel "alternate" :title "kodeskikknemnda.no" :href "https://kodeskikknemnda.no/rss.xml"}]
      [:link {:rel "stylesheet" :href "/site.css"}]]
     [:body body]))
@@ -61,14 +66,17 @@
     (map
       (fn [episode]
         [:div.episode
-         [:h3 [:a {:href (:ep/link episode)} (:ep/title episode)]]
-         [:p (:ep/description episode)]])
+         [:div.episode-photo
+          [:img {:src (:ep/photo-url-thumb episode)}]]
+         [:div.episode-info
+          [:h3 [:a {:href (:ep/link episode)} (:ep/title episode)]]
+          [:p (:ep/description episode)]]])
       (reverse episodes))))
 
 (defn get-episode-page [episode]
   (layout
     {:title (:ep/title episode)
-     :og {:title (:ep/title episode) :description (:ep/description episode)}}
+     :og {:title (:ep/title episode) :description (:ep/description episode) :photo-url (:ep/photo-url episode)}}
 
     [:p [:a {:href "/"} "< Tilbake til forsiden"]]
     [:h1 (:ep/title episode)]
@@ -82,6 +90,7 @@
        :allowfullscreen "true"}]]
 
     [:div.shownotes
+     [:p {} [:img {:style "max-width: 560px" :src (:ep/photo-url episode)}]]
      (:ep/shownotes episode)]))
 
 (defn get-pages []
