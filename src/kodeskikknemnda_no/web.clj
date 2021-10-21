@@ -71,7 +71,7 @@
          [:div.episode-info
           [:h3 [:a {:href (:ep/link episode)} (:ep/title episode)]]
           [:p (:ep/description episode)]]])
-      (reverse episodes))))
+      episodes)))
 
 (defn get-episode-page [episode]
   (layout

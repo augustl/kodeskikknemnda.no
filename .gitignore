@@ -15,3 +15,5 @@ checkouts
 target
 .firebase
 infra/.terraform
+.clj-kondo
+.lsp

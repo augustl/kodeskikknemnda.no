@@ -1,5 +1,17 @@
 {:episodes
- [{:ep/title "#1 Ardoq - om å bruke en sær teknologi, Clojure"
+ [{:ep/title "#2 Kaare Nilsen (Arktekk) - om konsulenter som liker sær tech (Scala)"
+   :ep/description "Kaare Nilsen fra Arktekk forteller hvordan det er å drive et konsulentselkap som har siktet seg inn på tech som ikke er mainstream."
+   :ep/subtitle "Konsulenter skal jo liksom gjøre det kunden vil. Men noen ganger like konsulentene å velge sær tech. Og det viser seg å være aldeles mulig å få til!"
+   :ep/shownotes ([:p "Kaare finner du (noe inaktiv) på " [:a {:href "https://twitter.com/kaarenilsen"} "Twitter (@kaarenilsen)"] ". Arktekk finner du på " [:a {:href "https://arktekk.no/"} "arktekk.no"] "."])
+   :ep/link "/ep/2-kaare-nilsen-arktekk-scala"
+   :ep/youtube-id "iWlo0Th8--c"
+   :ep/guid "ep-002-kaare-arktekk-71a25b8f825fa548d9426362fe9b45ab"
+   :ep/file-url "https://cdn.kodeskikknemnda.no/episodes/002/kaare-v3.mp3"
+   :ep/pub-date [2021 10 21]
+   :ep/duration "00:33:26"
+   :ep/keywords ["Kodeskikknemnda" "programmering" "software" "norsk" "norge" "August Lilleaas" "Kaare Nilsen" "Scala" "Arktekk"]}
+
+  {:ep/title "#1 Erik Assum (Ardoq) - om å bruke en sær teknologi, Clojure"
    :ep/description "Erik Assum fra Ardoq forteller om hvordan livet er i et selskap som har valgt å bruke et sært og lite utbredt programmeringsspråk - Clojure."
    :ep/subtitle "Hvordan får man til å ansette folk når man velger et programmeringsspråk som ingen kan?"
    :ep/photo-url "https://cdn.kodeskikknemnda.no/episodes/001/IMG_1334_lg.jpg"
@@ -24,10 +36,10 @@
                    [:a {:href "https://utviklingslandet.no/ep/2019-05-08/"} "https://utviklingslandet.no/ep/2019-05-08/"]])
    :ep/link "/ep/1-ardoq-clojure"
    :ep/youtube-id "-lp-QAMztkk"
-   :ep/guid "ep-001-ardoq-71a25b8f825fa548d9426362fe9b45ab"
-   :ep/file-url "https://cdn.kodeskikknemnda.no/episodes/001/ardoq.mp3"
+   :ep/guid "ep-001-ardoq-2806c25987"
+   :ep/file-url "https://cdn.kodeskikknemnda.no/episodes/001/ardoq-v3.mp3"
    :ep/pub-date [2020 6 6]
-   :ep/duration "01:02:34"
+   :ep/duration "01:00:54"
    :ep/keywords ["Kodeskikknemnda" "programmering" "software" "norsk" "norge" "August Lilleaas" "Erik Assum" "Clojure" "Ardoq"]}]}
 
 
