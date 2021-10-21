@@ -1,7 +1,7 @@
 {:episodes
  [{:ep/title "#2 Kaare Nilsen (Arktekk) - om konsulenter som liker sær tech (Scala)"
    :ep/description "Kaare Nilsen fra Arktekk forteller hvordan det er å drive et konsulentselkap som har siktet seg inn på tech som ikke er mainstream."
-   :ep/subtitle "Konsulenter skal jo liksom gjøre det kunden vil. Men noen ganger like konsulentene å velge sær tech. Og det viser seg å være aldeles mulig å få til!"
+   :ep/subtitle "Konsulenter skal jo liksom gjøre det kunden vil. Men noen ganger liker konsulentene å velge sær tech. Og det viser seg å være aldeles mulig å få til!"
    :ep/shownotes ([:p "Kaare finner du (noe inaktiv) på " [:a {:href "https://twitter.com/kaarenilsen"} "Twitter (@kaarenilsen)"] ". Arktekk finner du på " [:a {:href "https://arktekk.no/"} "arktekk.no"] "."])
    :ep/link "/ep/2-kaare-nilsen-arktekk-scala"
    :ep/youtube-id "iWlo0Th8--c"
