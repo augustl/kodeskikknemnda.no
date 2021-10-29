@@ -1,5 +1,18 @@
 {:episodes
- [{:ep/title "#2 Kaare Nilsen (Arktekk) - om konsulenter som liker sær tech (Scala)"
+ [{:ep/title "#3 Magnar Sveen - historien om Adventur Delux"
+   :ep/description "Magnar Sveen forteller om historien bak og rundt Adventur Delux, et tekstbasert eventyrspill som er like stort som alle Harry Potter-bøkene til sammen - to ganger."
+   :ep/subtitle "Software er et fullgodt alternativ til bonsai-hage og andre hobbyer"
+   :ep/shownotes ([:p "Magnar finnes på " [:a {:href "https://twitter.com/magnars"} "Twitter (@magnars)"] "."]
+                  [:p "Adventur Delux finnes på " [:a {:href "https://adventur.no/"} "adventur.no"] "."])
+   :ep/link "/ep/3-magnar-sveen-adventur-delux"
+   :ep/youtube-id "JU0FZPVkS1k"
+   :ep/guid "ep-003-magnar-sveen-adventur-33c1c7b59d2ef0397d4c2347450994f4"
+   :ep/file-url "https://cdn.kodeskikknemnda.no/episodes/003/magnar-v1.mp3"
+   :ep/pub-date [2021 10 29]
+   :ep/duration "02:07:51"
+   :ep/keywords ["Kodeskikknemnda" "programmering" "software" "norsk" "norge" "August Lilleaas" "Magnar Sveen" "Adventur Delux"]}
+
+  {:ep/title "#2 Kaare Nilsen (Arktekk) - om konsulenter som liker sær tech (Scala)"
    :ep/description "Kaare Nilsen fra Arktekk forteller hvordan det er å drive et konsulentselkap som har siktet seg inn på tech som ikke er mainstream."
    :ep/subtitle "Konsulenter skal jo liksom gjøre det kunden vil. Men noen ganger liker konsulentene å velge sær tech. Og det viser seg å være aldeles mulig å få til!"
    :ep/shownotes ([:p "Kaare finner du (noe inaktiv) på " [:a {:href "https://twitter.com/kaarenilsen"} "Twitter (@kaarenilsen)"] ". Arktekk finner du på " [:a {:href "https://arktekk.no/"} "arktekk.no"] "."])
