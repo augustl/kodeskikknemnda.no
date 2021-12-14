@@ -70,6 +70,8 @@
           [:img {:src (:ep/photo-url-thumb episode)}]]
          [:div.episode-info
           [:h3 [:a {:href (:ep/link episode)} (:ep/title episode)]]
+          (let [[y m d] (:ep/pub-date episode)]
+            [:p {:style "font-size: .9em"} (str y "-" m "-" d)])
           [:p (:ep/description episode)]]])
       episodes)))
 
